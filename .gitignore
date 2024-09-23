@@ -1,0 +1,11 @@
+.conda
+.vscode
+.venv
+
+test
+train
+valid
+
+# zipped dataset
+archive.zip 
+logs
