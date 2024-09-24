@@ -9,3 +9,6 @@ valid
 # zipped dataset
 archive.zip 
 logs
+
+# Jupyter Notebook checkpoints
+*.ipynb_checkpoints

@@ -8,3 +8,4 @@ numpy==1.26.4
 Pillow==9.0.0
 pydot==3.0.1
 graphviz==0.20.3
+nbstripout==0.7.1
