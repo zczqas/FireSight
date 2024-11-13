@@ -161,7 +161,7 @@ pyparsing==3.1.4
 pyproject_hooks==1.0.0
 pyright==1.1.367
 pyte==0.8.2
-python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/python-dateutil_1709299778482/work
+python-dateutil @ file:///home/conda/feedstock_rootrecaptcha/build_artifacts/python-dateutil_1709299778482/work
 python-multipart==0.0.9
 pytz==2024.2
 PyXB==1.2.6

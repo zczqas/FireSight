@@ -22,3 +22,6 @@ python3 -m venv .venv
 pip install -r requirements.txt
 
 streamlit run app.py
+
+
+pip install streamlit tensorflow opencv-python pillow scipy seaborn matplotlib pandas
