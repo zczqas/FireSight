@@ -12,3 +12,7 @@ logs
 
 # Jupyter Notebook checkpoints
 *.ipynb_checkpoints
+
+wildfire_predictions.db
+uploaded_images/
+cam_results/
