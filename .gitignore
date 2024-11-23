@@ -6,9 +6,11 @@ test
 train
 valid
 
+
 # zipped dataset
 archive.zip 
 logs
+__pycache__/
 
 # Jupyter Notebook checkpoints
 *.ipynb_checkpoints
