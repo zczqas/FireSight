@@ -1,6 +1,7 @@
 .conda
 .vscode
 .venv
+.idea
 
 test
 train
@@ -14,6 +15,8 @@ __pycache__/
 
 # Jupyter Notebook checkpoints
 *.ipynb_checkpoints
+
+.devcontainer/
 
 wildfire_predictions.db
 uploaded_images/
