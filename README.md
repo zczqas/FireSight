@@ -1,27 +1,41 @@
-<h1  align=center  >Wildfire Prediction in Satellite Imagery</h1>
+<h1  align=center  >Wildfire Prediction and Visualization Using CAM</h1>
 
-<h2>Predicting Wildfires with Convolutional Neural Networks (CNNs)</h2>
+<h2>Overview</h2>
+<p> 
+This project implements a wildfire prediction model using Convolutional Neural Networks (CNNs) and Class Activation Maps (CAMs). It is designed to classify satellite images into two categories: Wildfire and No Wildfire. The project also provides visual insights into predictions using CAMs, helping users understand which areas of an image contribute most to the classification.
+</p>
 
-<li><a href='https://open.canada.ca/data/en/dataset/9d8f219c-4df0-4481-926f-8a2a532ca003'>Refer to Canada's Website for the Original Wildfires Data (Forest Fires - Open Government Portal)</a></li>
+<!-- <li><a href='https://open.canada.ca/data/en/dataset/9d8f219c-4df0-4481-926f-8a2a532ca003'>Refer to Canada's Website for the Original Wildfires Data</a></li> -->
 
-<h2>Keywords</h2>
+
+<h2>Features</h2>
 <ul>
-  <li>Wildfire</li>
-  <li>Earth Science</li>
-  <li>Classification</li>
-  <li>Class Activation Maps</li>
-  <li>Deep Learning</li>
-  <li>Satellite Imagery</li>
-  <li>VGG-16</li>
+<li><strong>Image Classification:</strong> Classifies satellite images into wildfire or no wildfire.</li>
+<li><strong>Class Activation Maps (CAMs):</strong> Visualize the regions influencing the predictions.</li>
+<li><strong>Custom CNN Architecture:</strong> Includes adjustable convolutional layers for performance tuning.</li>
+<li><strong>Interactive GUI:</strong> A simple GUI to upload and classify images interactively.</li>
+<li><strong>Data Visualization:</strong> Plots for training accuracy, loss, and class distributions.</li>
 </ul>
 
-python3 -m venv .venv
+<h2>Key Functions</h2>
+<ol>
+  <li>Model Training:
+    <ul>
+      <li>Adjust model parameters such as input size, batch size, and number of epochs.</li>
+      <li>Visualize accuracy and loss during training.</li>
+    </ul>
+  </li>
 
-.venv\Scripts\activate
+  <li>Prediction:
+    <ul>      
+      <li>Generate predictions for test images and save results in CSV format.</li>
+      <li>Visualize Class Activation Maps for deeper insights.</li>
+    </ul>
+  </li>
 
-pip install -r requirements.txt
-
-streamlit run app.py
-
-
-pip install streamlit tensorflow opencv-python pillow scipy seaborn matplotlib pandas
+  <li>Interactive GUI:
+    <ul>
+      <li>Simple file upload interface to classify images and visualize CAMs.</li>
+    </ul>
+  </li>
+</ol>
