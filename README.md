@@ -39,3 +39,16 @@ This project implements a wildfire prediction model using Convolutional Neural N
     </ul>
   </li>
 </ol>
+
+<h2>Dependencies</h2>
+ <ul>
+    <li>Python 3.12
+    <li>TensorFlow
+    <li>OpenCV
+    <li>NumPy
+    <li>Pandas
+    <li>Matplotlib
+    <li>Seaborn
+    <li>Pillow
+    <li>Streamlit
+  </ul>
