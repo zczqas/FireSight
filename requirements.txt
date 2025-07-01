@@ -233,5 +233,5 @@ Werkzeug==3.0.4
 whisper-timestamped==1.15.4
 wrapt==1.16.0
 yarl==1.9.4
-yt-dlp==2024.5.27
+yt-dlp==2024.7.7
 zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1726248574750/work
