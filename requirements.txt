@@ -142,7 +142,7 @@ proglog==0.1.10
 progress==1.6
 prompt-toolkit==3.0.36
 proto-plus==1.24.0
-protobuf==4.25.8
+protobuf==5.29.6
 psutil==5.9.8
 ptyprocess @ file:///home/conda/feedstock_root/build_artifacts/ptyprocess_1609419310487/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
 pure_eval @ file:///home/conda/feedstock_root/build_artifacts/pure_eval_1721585709575/work
